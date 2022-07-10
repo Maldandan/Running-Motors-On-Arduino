@@ -13,6 +13,10 @@ in order the rotor to make full cycle we just need to activate the correct two M
 Connect the motor to the output of ESC. Here, the polarity doesn't matter. If you switch any 2 of the 3 wires, the motor will rotate in opposite direction. Connect the '+' & '-' of battery to the Red (+) and Black (-) wires of ESC respectively. From the 3pin servo cable coming out of the ESC, connect the Brown cable to the 'GND' pin on Arduino. Connect the Yellow cable to any digital pin. In our case its digital pin 12.
 Programming Arduino UNO
 Connect the Arduino to the PC. Open Arduino IDE and write this code. Under 'Tools' select Board: Arduino/Genuino UNO Port: COM15 (Select appropriate COM port. To find out the COM port open device manager and look for Arduino UNO under 'Ports'). Click Upload button on the upper left corner.
+
+![BLDC](https://user-images.githubusercontent.com/109004035/178165599-2f852d0d-7888-4647-ae89-bb3f815e9574.jpeg)
+
+
 ## Run The Motors
 1. Connect the battery to the ESC to power up the ESC.
 2. Power the Arduino.
